@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the PEIP contract.factory package.
+ * This file is part of the peip/contract.factory package.
  *  (c) 2017 Timo Michna <timomichna/yahoo.de>
  *
  * For the full copyright and license information, please view the LICENSE
