@@ -3,7 +3,7 @@
     "description": "Interfaces defining factories for PEIP",
     "type": "library",
     "license": "MIT",
-    "version": "v1.2.1",
+    "version": "v1.3.0",
     "authors": [
         {
             "name": "Timo Michna",
