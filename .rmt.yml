@@ -18,7 +18,7 @@ _default:
     version-generator: simple              # Simple versionning
     version-persister:
         vcs-tag:                           # Release with VCS tag
-            tag-prefix: "v"   # Prefix any tag with the VCS branch name
+            tag-prefix: "{branch-name}_"   # Prefix any tag with the VCS branch name
     post-release-actions:
         vcs-publish:                       # Publish the release to the VCS
             ask-confirmation: true
@@ -29,7 +29,7 @@ master:
     version-generator: semantic # More complex versionning (semantic)
     version-persister:
         vcs-tag:
-            tag-prefix: ''         # No more prefix for tags
+            tag-prefix: 'v'         # No more prefix for tags
     pre-release-actions:
         changelog-update:          # Update a CHANGELOG file before the release
             format: semantic
