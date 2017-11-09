@@ -1,0 +1,14 @@
+; custom @package docblock value
+package = peip/contract.factory
+
+
+; commands to use for phpunit and phpdoc
+[commands]
+phpunit = vendor/bin/phpunit
+phpdoc = vendor/bin/phpdocumentor
+
+; names for support files
+[files]
+license = LICENSE
+phpunit = phpunit.xml.dist
+readme = README.md

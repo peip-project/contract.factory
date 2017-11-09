@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dec0bf343ea4650da0303df8dfb2ab40",
+    "content-hash": "aa43184b8f33fa3fc445f4e85e5e3321",
     "packages": [],
     "packages-dev": [
         {
@@ -193,16 +193,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "89e7b083f27241e03dd776cb8d6781c77e341db6"
+                "reference": "04f71e56e03ba2627e345e8c949c80dcef0e683e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/89e7b083f27241e03dd776cb8d6781c77e341db6",
-                "reference": "89e7b083f27241e03dd776cb8d6781c77e341db6",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/04f71e56e03ba2627e345e8c949c80dcef0e683e",
+                "reference": "04f71e56e03ba2627e345e8c949c80dcef0e683e",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2017-11-03T02:21:46+00:00"
+            "time": "2017-11-09T13:31:39+00:00"
         },
         {
             "name": "gecko-packages/gecko-php-unit",
@@ -415,6 +415,66 @@
                 "diff"
             ],
             "time": "2017-10-19T09:58:18+00:00"
+        },
+        {
+            "name": "producer/producer",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/producerphp/producer.producer.git",
+                "reference": "62129bf74de1c24416a59f5636834570ae47e662"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/producerphp/producer.producer/zipball/62129bf74de1c24416a59f5636834570ae47e662",
+                "reference": "62129bf74de1c24416a59f5636834570ae47e662",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "pds/skeleton": "~1.0",
+                "phpdocumentor/phpdocumentor": "~2.0",
+                "phpunit/phpunit": "~5.0"
+            },
+            "suggest": {
+                "phpdocumentor/phpdocumentor": "Producer will call `phpdoc` from your Composer package or global system.",
+                "phpunit/phpunit": "Producer will call `phpunit` from your Composer package or global system."
+            },
+            "bin": [
+                "bin/producer"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Producer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Producer Contributors",
+                    "homepage": "https://github.com/producerphp/producer.producer/contributors"
+                }
+            ],
+            "description": "Tools for releasing library packages; supports Git, Mercurial, Github, Gitlab, and Bitbucket.",
+            "homepage": "https://github.com/producerphp/producer.producer",
+            "keywords": [
+                "bitbucket",
+                "git",
+                "github",
+                "gitlab",
+                "hg",
+                "library",
+                "mercurial",
+                "package"
+            ],
+            "time": "2017-10-02T21:04:50+00:00"
         },
         {
             "name": "psr/log",
